@@ -41,3 +41,23 @@ a {
     padding: 1rem 2rem;
     border-radius: 7px;
 }
+
+img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+/* flex box */
+section {
+    display: flex;
+    gap: 2rem;
+    padding: 7rem;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
